@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- typography -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+  </style>
+
+</head>
+<body>
+<!-- header -->
+<header class="header">
+  <div class="wave">
+    <img src="images/bg-curvy-mobile.svg" alt="" class="mobile-img">
+    <img src="images/bg-curvy-desktop.svg" alt="" class="desktop-img">
+  </div>
+  <div class="wrapper">
+    <!-- navbar -->
+    <nav class="navbar flex padding-30-0px">
+      <img src="images/logo.svg" alt="" class="logo">
+      <ul class="nav-menu flex gap-10px align-center">
+        <li><a href="#" class="nav-link underline">Features</a></li>
+        <li><a href="#" class="nav-link underline">Team</a></li>
+        <li><a href="#" class="nav-link underline">Sign In</a></li>
+      </ul>
+    </nav>
+    <!-- hero -->
+    <section class="hero text-center padding-30-0px">
+      <div class="hero-img margin-bottom-10px">
+        <img src="images/illustration-intro.png" alt="">
+      </div>
+      <div class="hero-text">
+        <div class="text-wrapper margin-bottom-15px">
+          <h1 class="hero-title">All your files in one secure location, accessible anywhere.</h1>
+          <p class="hero-introduction">
+            Fylo stores all your most important files in one secure location. Access them wherever 
+            you need, share and collaborate with friends family, and co-workers.
+          </p>
+        </div>
+        <button class="btn primary-btn">Get Started</button>
+      </div>
+    </section>
+  </div>
+</header>
+
+<!-- main -->
+<main>
+  <section class="usp-section padding-30-0px">
+    <div class="wrapper">
+      <!-- usp grid -->
+      <div class="usp-grid grid gap-50px">
+        <!-- grid row 1 -->
+        <div class="grid-row grid gap-50px">
+          <!-- file access -->
+          <div class="usp text-center">
+            <div class="usp-icon">
+              <img src="images/icon-access-anywhere.svg" alt="" class="margin-bottom-15px">
+            </div>
+            <div class="usp-text">
+              <p class="usp-subheading margin-bottom-5px">Access your files, anywhere</p>
+              <p class="usp-description">
+                The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+              </p>
+            </div>
+          </div>
+          <!-- security -->
+          <div class="usp text-center">
+            <div class="usp-icon">
+              <img src="images/icon-security.svg" alt="" class="margin-bottom-15px">
+            </div>
+            <div class="usp-text">
+              <p class="usp-subheading margin-bottom-5px">Security you can trust</p>
+              <p class="usp-description">
+                2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- grid row 2 -->
+        <div class="grid-row grid gap-50px">
+          <!-- collaboration -->
+          <div class="usp text-center">
+            <div class="usp-icon">
+              <img src="images/icon-collaboration.svg" alt="" class="margin-bottom-15px">
+            </div>
+            <div class="usp-text">
+              <p class="usp-subheading margin-bottom-5px">Real-time collaboration</p>
+              <p class="usp-description">
+                Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+              </p>
+            </div>
+          </div>
+          <!-- file -->
+          <div class="usp text-center">
+            <div class="usp-icon">
+              <img src="images/icon-any-file.svg" alt="" class="margin-bottom-15px">
+            </div>
+            <div class="usp-text">
+              <p class="usp-subheading margin-bottom-5px">Store any type of file</p>
+              <p class="usp-description">
+                Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- productive -->
+  <section class="productive padding-30-0px">
+    <div class="wrapper">
+      <div class="productive-grid grid gap-50px">
+        <div class="img-wrapper">
+          <img src="images/illustration-stay-productive.png" alt="">
+        </div>
+        <div class="content">
+          <div class="text-wrappper margin-bottom-15px">
+            <h2 class="second-heading margin-bottom-15px">Stay productive, wherever you are</h2>
+            <p class="productive-description">
+              Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+              <br>
+              Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+            </p>
+          </div>
+          <button class="btn link-btn flex gap-10px">See how Fylo works <img src="images/icon-arrow.svg" alt="" class="btn-arrow blue-arrow"><img src="images/icon-arrow-white.svg" alt="" class="btn-arrow white-arrow"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section class="testimonials padding-30-0px">
+    <div class="wrapper">
+      <!-- testimonial grid -->
+      <div class="testimonial-grid grid gap-30px relative">
+        <!-- Satish Patel -->
+        <div class="testimonial padding-20px">
+          <p class="review margin-bottom-15px">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <footer class="testimonial-footer flex gap-10px">
+            <div class="avatar-img"><img src="images/profile-1.jpg" alt=""></div>
+            <div class="user">
+              <p class="username">Satish Patel</p>
+              <figure class="work-designation">Founder & CEO, Huddle</figure>
+            </div>
+          </footer>
+        </div>
+        <!-- Bruce McKenzie -->
+        <div class="testimonial padding-20px">
+          <p class="review margin-bottom-15px">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <footer class="testimonial-footer flex gap-10px">
+            <div class="avatar-img"><img src="images/profile-2.jpg" alt=""></div>
+            <div class="user">
+              <p class="username">Bruce McKenzie</p>
+              <figure class="work-designation">Founder & CEO, Huddle</figure>
+            </div>
+          </footer>
+        </div>
+        <!-- Iva Boyd -->
+        <div class="testimonial padding-20px">
+          <p class="review margin-bottom-15px">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <footer class="testimonial-footer flex gap-10px">
+            <div class="avatar-img"><img src="images/profile-3.jpg" alt=""></div>
+            <div class="user">
+              <p class="username">Iva Boyd</p>
+              <figure class="work-designation">Founder & CEO, Huddle</figure>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- footer -->
+<footer class="footer relative margin-top-100px">
+  <!-- footer-card -->
+  <div class="footer-card text-center padding-20px">
+    <div class="text-wrapper">
+      <h3 class="third-heading margin-bottom-5px">Get early access today</h3>
+      <p class="card-description">
+        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+        questions, our support team would be happy to help you.
+      </p>
+    </div>
+    <form action="#" class="form flex gap-10px column padding-10px">
+      <div class="emailField">
+        <input type="text" id="emailInput" placeholder="email@example.com">
+        <p class="error">Test</p>
+      </div>
+      <input type="submit" value="Get Started For Free" class="btn submit-btn primary-btn">
+    </form>
+  </div>
+  <!-- footer container -->
+  <div class="wrapper padding-30-0px padding-top-160px">
+    <img src="images/logo.svg" alt="" class="logo footer-logo margin-bottom-10px">
+    <div class="footer-container flex column gap-20px">
+      <ul class="address">
+        <li class="flex gap-10px"><img src="images/icon-location.svg" alt="" class="footer-icon">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua
+        </li>
+      </ul>
+      <ul class="email-and-phone flex column gap-10px">
+        <li class="flex gap-10px"><img src="images/icon-phone.svg" alt="" class="footer-icon">+1-543-123-4567</li>
+        <li class="flex gap-10px"><img src="images/icon-email.svg" alt="" class="footer-icon">example@fylo.com</li>
+      </ul>
+      <ul class="footer-menu">
+        <li><a href="#" class="nav-link footer-link">About Us</a></li>
+        <li><a href="#" class="nav-link footer-link">Jobs</a></li>
+        <li><a href="#" class="nav-link footer-link">Press</a></li>
+        <li><a href="#" class="nav-link footer-link">Blog</a></li>
+      </ul>
+      <ul class="footer-menu">
+        <li><a href="#" class="nav-link footer-link">Contact Us</a></li>
+        <li><a href="#" class="nav-link footer-link">Terms</a></li>
+        <li><a href="#" class="nav-link footer-link">Privacy</a></li>
+      </ul>
+      <ul class="socials flex gap-10px">
+        <li class="flex"><i class="social-icon fa-brands fa-facebook-f"></i></li>
+        <li class="flex"><i class="social-icon fa-brands fa-twitter"></i></li>
+        <li class="flex"><i class="social-icon fa-brands fa-instagram"></i></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Veer-graphics">Veer-graphics</a>.
+    </p>
+  </footer>
+
+  <!-- js -->
+  <script src="app.js"></script>
+</body>
+</html>
